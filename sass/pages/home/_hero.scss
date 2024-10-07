@@ -1,0 +1,84 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+
+
+
+
+.orange{
+    color:$primary-color;
+}
+.search{
+    height: 40px;
+    border-radius: 5px;
+}
+.button{
+    height: 40px;
+    width: 60px;
+    background-color: #000;
+    color:white;
+    border-radius: 5px;
+}
+.Restaurant{
+ 
+    border-radius: 50%;
+    background-color: #000;
+}
+.hero{
+    @include flex (space-between ,center);
+    padding-left: 100px;
+
+}
+
+    
+    
+
+.search{
+    margin-top: 5px;
+}
+
+
+
+.hero-pizza{
+    @include flex (space-between ,center);
+}
+
+  .pizza{
+    @include flex (space-between ,center); 
+    margin-top: 2em;
+    
+  }
+  .star{
+    background-color: #F4F7FB;
+  }
+  .fresh{
+    background-color: #F4F7FB;
+  }
+  .cutlery{
+    background-color: #F4F7FB;
+    margin-top: 5px;
+  }  
+
+
+
+
+
+
+
+    
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+    
+
+
+
+

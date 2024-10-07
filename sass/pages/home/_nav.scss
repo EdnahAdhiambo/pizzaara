@@ -1,0 +1,50 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+nav{
+    background-color:#F4F7FB ;
+   .nav{
+@include flex (space-between, center);
+.nav-center{
+    ul{
+        @include flex (space-between, center);
+        li{
+            a{
+
+                
+                display:inline-block;
+                padding: 20px;
+                &:hover{
+                    background-color: $primary-color;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+   }
+}
+.nav-right{
+    @include flex (space-between, center);
+    gap:30px;
+
+    .fa-bars{
+        display:none;
+        
+    }
+}
+//media queries
+@media  screen and (max-width:600px){
+    .nav-center{
+        display: none;
+
+    }
+    
+     .fa-bars{
+        display: none;
+     }
+}
+.orange{
+    color: $primary-color;
+}
+    
+

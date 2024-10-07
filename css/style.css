@@ -1,0 +1,341 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.nav-right {
+  width: 25px;
+}
+
+nav {
+  background-color: #F4F7FB;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+nav .nav .nav-center ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+nav .nav .nav-center ul li a {
+  display: inline-block;
+  padding: 20px;
+}
+nav .nav .nav-center ul li a:hover {
+  background-color: orange;
+  color: white;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  gap: 30px;
+}
+.nav-right .fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-center {
+    display: none;
+  }
+  .fa-bars {
+    display: none;
+  }
+}
+.orange {
+  color: orange;
+}
+
+.orange {
+  color: orange;
+}
+
+.search {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.button {
+  height: 40px;
+  width: 60px;
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+}
+
+.Restaurant {
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  padding-left: 100px;
+}
+
+.search {
+  margin-top: 5px;
+}
+
+.hero-pizza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+
+.pizza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  margin-top: 2em;
+}
+
+.star {
+  background-color: #F4F7FB;
+}
+
+.fresh {
+  background-color: #F4F7FB;
+}
+
+.cutlery {
+  background-color: #F4F7FB;
+  margin-top: 5px;
+}
+
+.container ol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+.container ol li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+.container ol li a {
+  padding: 20px;
+}
+.container ol li a:hover {
+  background-color: orange;
+  color: white;
+  list-style: none;
+}
+
+.orange {
+  color: orange;
+  padding-left: 45%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  padding-left: 100px;
+}
+
+.btn {
+  height: 30px;
+  width: 100px;
+  background-color: #000;
+  color: white;
+}
+
+.view {
+  background-color: orange;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 90px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.image {
+  display: flex;
+  gap: 40px;
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+.us {
+  color: orange;
+}
+
+.yellow {
+  color: orange;
+  margin-top: 50px;
+}
+
+.png {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+}
+
+.quality {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fast {
+  background-color: #000;
+  border-radius: 100px;
+}
+
+.best {
+  background-color: #F4F7FB;
+  padding: 40px;
+}
+
+.fresh {
+  background-color: white;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.need {
+  color: orange;
+  padding: 600px;
+}
+
+.team {
+  color: orange;
+}
+
+.support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  gap: 200px;
+}
+
+.help {
+  padding-left: 400px;
+}
+
+.mail {
+  margin-bottom: 4%;
+  padding-left: 40px;
+}
+
+.live {
+  margin-bottom: 4%;
+  padding-left: 40px;
+}
+
+.phone {
+  margin-bottom: 4%;
+  padding-left: 40px;
+}
+
+.number {
+  background-color: #F4F7FB;
+}
+
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: no-wra;
+  gap: 200px;
+  background-color: #000;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.home {
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.shop {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  background-color: orange;
+  color: white;
+  padding: 15px;
+}
+
+.address {
+  height: 40px;
+}
+
+.new {
+  border-radius: 7px;
+}
+
+.Kebab {
+  padding-left: 200px;
+}
+
+.Tandoori {
+  padding-left: 120px;
+}

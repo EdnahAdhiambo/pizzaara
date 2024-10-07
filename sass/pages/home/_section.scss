@@ -1,0 +1,100 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+.container{
+    
+    ol{
+        @include flex (space-between, center);
+        li{
+            @include flex (space-between, center);
+
+            a { 
+
+                padding: 20px;
+                &:hover{
+                    background-color: $primary-color;
+                    color: white;
+                    list-style: none;
+                }
+            }
+        }
+    }    
+}
+.orange{
+    color: $primary-color;
+    padding-left: 45%;
+}
+.menu{
+    @include flex (space-between, center);
+    padding-left: 100px;
+    
+}
+.btn{
+  height: 30px;
+  width: 100px;
+   background-color: #000;
+   color:white;
+}
+.view{
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.image{
+    display: flex; 
+    gap:40px;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.us{
+    color: $primary-color;
+}
+.yellow{
+    color: $primary-color;
+    margin-top: 50px;
+}
+    .png{
+        @include flex (space-between, center); 
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+    .delivery{
+        @include flex (space-between, center); 
+        
+    }
+    .quality{
+        @include flex (space-between, center); 
+        padding-top: 50px;
+        padding-bottom: 50px
+    }
+    .fast{
+        background-color: #000;
+        border-radius: 100px;
+        
+    }
+    .best{
+        background-color:#F4F7FB ;
+        padding: 40px;
+        
+    }
+    .fresh{
+        background-color: white;
+    }
+    h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+        
+    
+
+    
+
+

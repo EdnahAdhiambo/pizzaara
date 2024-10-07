@@ -1,0 +1,73 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixin" as *;
+.need{
+    color: $primary-color;
+    padding: 600px;
+    
+}
+.team{
+    color: $primary-color;
+    
+}
+.support{
+    @include flex (center,center);
+    gap:200px
+    
+}
+.help{
+    padding-left: 400px;
+}
+.mail{
+    margin-bottom:4%;
+    padding-left: 40px;
+}
+.live{
+    margin-bottom: 4%;
+    padding-left: 40px;
+}
+.phone{
+    margin-bottom: 4%;
+    padding-left:40px ;
+}
+.number{
+    background-color: #F4F7FB;
+}
+.light{
+    @include flex (center,center);
+    gap: 200px;
+    background-color: #000;
+    height: 300px;
+    margin-top: 100px;
+}
+.home{
+    color: $primary-color;
+    margin-bottom: 10px;
+    
+}
+.shop{
+    color:white;
+    margin-bottom: 20px;
+}
+.subscribe{
+    background-color: $primary-color;
+    color: white;
+    padding: 15px;
+    
+}
+.address{
+    height: 40px;
+
+}
+.new{
+    border-radius: 7px;
+}
+.Kebab{
+    padding-left: 200px;
+}
+.Tandoori{
+    padding-left: 120px;
+}
+
+    
+
+
